@@ -1,47 +1,49 @@
 
-# Uber End-To-End Data Engineering Project on Google Cloud Platform
+# AskManyu AI App - Chat with Multiple PDFs
 
-An end-to-end modern data engineering project, including deployment of ETL pipeline on Google Cloud Platform, using BigQuery for data analysis and leveraging Looker to generate an insight dashboard.
-
-<img width="1258" alt="Project Architecture" src="https://github.com/manyuzhang1996/NYC-Uber-Data-Engineering-Project-with-Google-Cloud-Platform/assets/111943220/8bbdf71b-9953-4613-ae71-60003c81edc8">
+An AI application leverages NLP, OpenAI API and LangChain to allow users to flexibly query informations about multiple PDF files.
 
 
+https://github.com/manyuzhang1996/AskManyu-AI-App-to-chat-with-PDFs/assets/111943220/650e8994-72bc-4f14-be46-6078dab4500c
 
 
-## Technology Stack
-Languages: 
+## Tech Stack
 * Python
-* SQL
-
-Google Cloud Platform: 
-* Google Storage
-* Google Engine
-* Big Query
-* Looker Studio
-
-Modern Data Pipeline Tool:
-* Mage - https://www.mage.ai
+* LangChain
+* OpenAI API
+* htmlTemplates
+* Streamlit
 
 
-## Data Source
-The dataset is provided by TLC Trip Record Data, including yellow and green taxi trip records. It includes fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.
-
-Data source link: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-
-Data Dictionary: https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
-
-## Data Modeling
-![Uber Data Model](https://github.com/manyuzhang1996/NYC-Uber-Data-Engineering-Project-with-Google-Cloud-Platform/assets/111943220/3b9c2377-cc26-498c-a2e7-c4c857b94b80)
-
-## ETL Pipeline
-<img width="334" alt="ETL pipeline" src="https://github.com/manyuzhang1996/NYC-Uber-Data-Engineering-Project-with-Google-Cloud-Platform/assets/111943220/2c3dbd03-4a4a-433e-9455-78527fa1831b">
+## Architecture
+1. Get texts from all the PDF documents
+2. Split texts into chunks
+3. Create embeddings of the text chunks
+4. Store the embeddings with a vector store
+5. Embed user inputs
+6. Implement semantic search in vector store
+7. Generate the answer with llms
 
 
 
-## Looker Dashboard
-https://github.com/manyuzhang1996/NYC-Uber-Data-Engineering-Project-with-Google-Cloud-Platform/assets/111943220/4c7ad7b2-15b6-4a0c-aba8-8754cfef91d5
+## Use Case
+1. Customer Support and FAQs
+   
+   Customers can ask questions about shipping, returns, warranties, or other policies, and the app can provide clear and concise answers.
 
+   This helps customers quickly find the information they need without having to search through lengthy policy documents.
+   
+2. Research and Study Assistance
 
+   Students, researchers, or professionals working on a project can interact with the app to gain insights from multiple PDFs.
+
+   This helps users quickly identify the useful materials for their study or research topics.
+   
+3. Business Intelligence and Data Mining
+  
+   Companies can use the app to extract valuable insights from their PDF-based reports, documents, or market research.
+
+4. ...
 
 
 ## Contact
