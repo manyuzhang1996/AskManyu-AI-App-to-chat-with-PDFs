@@ -16,6 +16,7 @@ https://github.com/manyuzhang1996/AskManyu-AI-App-to-chat-with-PDFs/assets/11194
 
 
 ## Architecture
+![AskManyu Architecture](https://github.com/manyuzhang1996/AskManyu-AI-App-to-chat-with-PDFs/assets/111943220/63c287a7-6995-4d35-8338-e17996541796)
 1. Get texts from all the PDF documents
 2. Split texts into chunks
 3. Create embeddings of the text chunks
@@ -23,7 +24,6 @@ https://github.com/manyuzhang1996/AskManyu-AI-App-to-chat-with-PDFs/assets/11194
 5. Embed user inputs
 6. Implement semantic search in vector store
 7. Generate the answer with llms
-![AskManyu Architecture](https://github.com/manyuzhang1996/AskManyu-AI-App-to-chat-with-PDFs/assets/111943220/63c287a7-6995-4d35-8338-e17996541796)
 
 
 
