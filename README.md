@@ -16,7 +16,8 @@ https://github.com/manyuzhang1996/AskManyu-AI-App-to-chat-with-PDFs/assets/11194
 
 
 ## Architecture
-![AskManyu Architecture](https://github.com/manyuzhang1996/AskManyu-AI-App-to-chat-with-PDFs/assets/111943220/63c287a7-6995-4d35-8338-e17996541796)
+![Architecture](https://github.com/manyuzhang1996/AskManyu-AI-App-to-chat-with-PDFs/assets/111943220/dbfeeb0d-c43b-4987-bee0-320d31c06cb5)
+
 1. Get texts from all the PDF documents
 2. Split texts into chunks
 3. Create embeddings of the text chunks
